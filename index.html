@@ -1,46 +1,237 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<title>Misejercicios con estilo</title>
-<style type="text/css">
-	body {padding-left:20em;
-		color:black;
-		background-color:#40E0D0;}
-		ul{list-style-type: none;
-			padding: 0;
-			margin: 0;
-			position: absolute;
-			top: 8em;
-			left: 4em;
-			width: 12em;}
-			ul li {background: #d8daed;
-				margin: 0.8em 0;
-				padding: 0.5em;}
-				img{position: center;
-					margin-top: 1em;
-					width: 50%;
-					height: 55px;}
-
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimberly Beauty Salón</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-	<script language="JavaScript">
-		window.alert("Bienvenido a mi sitio web")
-	</script>
-	<img src="logo.jpg">
-	<ul>
-		<li><a href="Actividad 1.html">Mi Poema Chino</a>
-			<li><a href="actividad 2.html">Mi Poema Modificado</a>
-				<li><a href="actividad 3.html">Mi Poema con Color</a>
-					<li><a href="actividad 4.html">Lista Pasos Word</a>
-						<li><a href="actividad 5.html">Lista funciones Trigonométricas</a>
-							<li><a href="actividad 6.html">Mi ejercicio con CSS</a>
-								<li><a href="actividad 7.html">Mi ejercicio con Script</a>
-									<li><a href="Ejercicio de prueba.html">La Computadora y sus Partes</a>
-								</ul>
-								<h1> Mi Primer Sitio Web</h1>
-								<h3>Sobre mí</h3>
-								<p>Me considero una persona con objetivos de corto, mediano y largo plazo, dedicandome a esforzarme cada dia para alcanzarlos y no dejarlos en el olvido como en muchas ocaciones pasa.</p>
-								<p>Una de mis pasiones es la construcion civil, me interesa avanzar y desarrollar más a fondo mis capacidades en esta área, para haci destacar por la calidad y eficiencia de mi trabajo</p>
-								<p>Me llama la atencion la programcion pero no creo desarrollarlo ya que mis objetivos estan enfocados en otra direccion, de darme tiempo podria darle un espacio y haci conocer mas de esta carrera.</p>
-							</body>
-							</html>
+     
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav_logo">
+                <h2 class="nav_title">Kimberly Beauty Salón</h2>
+            </div>
+            <ul class="nav_link nav_link --menu">
+                <li class="nav_items">
+                <a href="#" class="nav_links">Inicio</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Acerca de</a>
+                </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Contacto</a>
+                        <ul>
+                            <li><a href=""><img src= "imagenes/telefono.svg" alt="">2250-4532</a></li>
+                            <li><a href=""><img src= "imagenes/telefono.svg" alt="">2265-9234</a></li>
+                            <li><a href=""><img src= "imagenes/telefono.svg" alt="">3287-0712</a></li>
+                            </ul>
+                    </li>
+                    
+                        <li class="nav_items">
+                            <a href="#" class="nav_links">Categorías</a>
+                            <ul>
+                                <li><a href="">Tratamientos Faciales</a></li>
+                                <li><a href="">Manicure y Pedicure</a></li>
+                                <li><a href="">Maquillaje para eventos</a></li>
+                                <li><a href="">Depilación</a></li>
+                                <li><a href="">colorimetría</a>
+                                </li>
+                                
+                               </ul>
+                        </li>
+                            
+                            <img src="./imagenes/equis.svg" class="nav_close" alt=""> 
+            </ul>
+
+            <div class="nav_menu">
+                <img src="./imagenes/menu.svg" class="nav_img" alt="">
+            </div>
+        </nav>
+
+        <section class="hero_container container">
+            <h1 class="hero_title">Comprometidas con la belleza, cuidado y tratamiento de la mujer</h1>
+            <p class="hero_paragraph">Visita nuentros establecimientos en todo Tegucigalpa y dale un toque nuevo a tu look </p>
+            <a href="#" class="cta">HAZ TU RESERVACION</a>
+            </section>
+        </header>
+        
+        <main>
+            <section class="container about">
+   <h2 class="subtitle">¿Que te ofrecemos?</h2>
+   <p>Todo lo necesario para que te sientas comoda con tu imagen, brindandote un servicio de calidad certificada, con personal capacitado en todas las áreas
+</p>
+
+<div class="about_main">
+    <article class="about_icons">
+        <img src="./imagenes/certificado.svg" class="about_icon">
+        <h3 class="about_title">Certificacion de calidad</h3>
+        <p class="about_paragrah">Somos una empresa certificada con los mas altos estandares de calidad, con tecnologia de punta.
+            
+        </p>
+    </article>
+
+    <article class="about_icons">
+        <img src="./imagenes/persona.svg" class="about_icon">
+        <h3 class="about_title">Personal calificado</h3>
+        <p class="about_paragrah">Nuestro personal a sido capacitado por prestigiosas academias, brindandole la garantia en nuestros trabajos.</p>
+    </article>
+
+    <article class="about_icons">
+        <img src="./imagenes/tienda.svg" class="about_icon">
+        <h3 class="about_title">Variedad de productos</h3>
+        <p class="about_paragrah">Contamos con los mejores productos del mercado, haciendo que sus trabajos sean de mayor duración.</p>      
+        </article>
+     </div>
+</section>
+
+<section class="knowledge">
+    <div class="knowledge_container container">
+        <div class="knowledge_texts">
+            <h2 class="subtitle">Disfruta en nuestras instalaciones</h2>
+            <p class="knowledge_paragraph">Disfruta de un ambiente agradable, excelente atencion al cliente, sala de descanso, parqueo amplio entre muchas cosas mas.</p>
+    <a href="#" class="cta">HAZ CLIC AHORA</a>
+        </div>
+
+        <figure class="knowledge_picture">
+            <img src="./imagenes/ambiente.jpg" class="knowledge_img">
+        </figure>
+    </div>
+</section>
+
+<section class=" price container">
+    <h2 class="subtitle">Obten el paquete que mas te guste</h2>
+    <div class="price_table">
+        <div class="price_element">
+        <p class="price_name">Faciales</p>
+        <h3 class="price_price">2000 Lps</h3>
+
+        <div class="price_items">
+            <p class="price_features">Depilacion de rostro</p>
+            <p class="price_features">Depilacion de cejas</p>
+            <p class="price_features">Manicure y Pedicure</p>
+</div>
+
+<a href="#" class="price_cta">ESCOGE AHORA</a>
+</div>
+
+<div class="price_element price_element--BEST">
+    <p class="price_name">Tratamientos</p>
+    <h3 class="price_price">1500 Lps</h3>
+
+    <div class="price_items">
+        <p class="price_features">Laceados</p>
+        <p class="price_features">Cepillado y Palnchado</p>
+        <p class="price_features">Tintes de todo color</p>
+</div>
+
+<a href="#" class="price_cta">ESCOGE AHORA</a>
+</div>
+
+<div class="price_element">
+    <p class="price_name">Maquillaje</p>
+    <h3 class="price_price">1800 Lps</h3>
+
+    <div class="price_items">
+        <p class="price_features">Maquillaje para novias </p>
+        <p class="price_features">Maquillaje para 15 años</p>
+        <p class="price_features">Maquillaje para graduaciones</p>
+</div>
+
+<a href="#" class="price_cta">ESCOGE AHORA</a>
+</div>
+</section>
+
+<section class="testimony">
+    <div class="testimony_container container">
+        <img src="./imagenes/arrowi.svg" class="testimony_arrow" id="before">
+        <section class="testimony_body testimony_body--show" data-id="1">
+        <div class="testimony_texts">
+            <h2 class="subtitle">Tipos de cabello, <span class="testimony_course">"Cabello Lacio"</span></h2>
+            <p class="testimony_review">El cabello lacio requiere de muy poco para lucir ordenado. Sin embargo, no debes escatimar en su mantenimiento.
+                Este tipo de cabello no tiene rizos naturales. Las hebras pueden ser finas o gruesas, pero, invariablemente, caen rectas desde la raíz hasta la punta. Es el que suele reflejar más la luz y también el más resistente.
+                
+                Es ideal lavarlo con frecuencia para evitar el exceso de sebo. Elige shampoos ligeros, sin sales ni aceites pesados. Puedes usar algún producto para controlar el frizz, que es muy común en este tipo de cabellos.</p>
+        </div>
+        <figure class="testimony_picture">
+            <img src="./imagenes/lacio.jpg" class="testimony_img">
+        </figure>
+    </section>
+
+         <section class="testimony_body" data-id="2">
+        <div class="testimony_texts">
+            <h2 class="subtitle">Tipos de cabello, <span class="testimony_course">Cabello Ondulado</span></h2>
+            <p class="testimony_review">Según un estudio de Unilever México, 63% de las mexicanas tiene el pelo ondulado o ligeramente lacio.
+                El cabello ondulado posee características —en términos de textura y brillo— a medio camino entre el pelo lacio y el chino. Si es delgado, puede ser trabajado fácilmente; por el contrario, si es grueso, es más difícil de domar.</p>
+        </div>
+        <figure class="testimony_picture">
+            <img src="./imagenes/ondulado.jpg" class="testimony_img">
+        </figure>
+    </section>
+
+    <section class="testimony_body" data-id="3">
+        <div class="testimony_texts">
+            <h2 class="subtitle">Tipos de cabello, <span class="testimony_course">Cabello Rizado</span></h2>
+            <p class="testimony_review">Tras décadas de ser relegados e incomprendidos, hoy existe un culto a los rizos, abanderado por el ‘Curly Girl Method’.
+                El patrón del cabello rizado puede asemejarse a una letra ese o a una zeta. Usualmente, es voluminoso, dependiente de los factores medioambientales y propenso a los daños.
+                
+                El objetivo es mantener la humedad, por lo que se sugieren productos de limpieza específicamente hechos para cabello rizado, con aceites e ingredientes altamente hidratantes en su composición.</p>
+        </div>
+        <figure class="testimony_picture">
+            <img src="./imagenes/rizado.jpg" class="testimony_img">
+        </figure>
+    </section>
+
+        <img src="./imagenes/arrowd.svg" class="testimony_arrow" id="next">
+    </div>
+</section>
+</main>
+
+<footer class="footer">
+    <section class="footer_container container">
+        <nav class="nav nav--footer">
+            <h2 class="footer_title">Kimberly Beauty Salón</h2>
+
+            <ul class="nav_link nav_link--footer">
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Acerca de</a>
+                    </li>
+                        <li class="nav_items">
+                            <a href="#" class="nav_links">Contacto</a>
+                            <ul>
+                                <li><a href=""><img src= "imagenes/telefono.svg" alt="">2250-4532</a></li>
+                                <li><a href=""><img src= "imagenes/telefono.svg" alt="">2265-9234</a></li>
+                                <li><a href=""><img src= "imagenes/telefono.svg" alt="">3287-0712</a></li>
+                                </ul>
+                        </li>
+                        </ul>
+        </nav>
+        <form class="footer_form">
+            <h2 class="footer_newsletter">Suscribete ahora</h2>
+            <div class="footer_inputs">
+                <input type="email" placeholder="Email:" class="footer_input">
+                <input type="submit" value="Registrate" class="footer_submit">
+            </div> 
+        </form>
+    </section>
+    <section class="footer_copy container">
+        <div class="footer_social">
+        <a href="#" class="footer_icons"><img src="./imagenes/whats.svg" class="footer_img"></a>
+        <a href="#" class="footer_icons"><img src="./imagenes/face.svg" class="footer_img"></a>
+        <a href="#" class="footer_icons"><img src="./imagenes/tiktok.svg" class="footer_img"></a>
+        <a href="#" class="footer_icons"><img src="./imagenes/youtube.svg" class="footer_img"></a>
+        
+    </div>
+<h3n class="footer_copyright">Derechos reservados &copy; Kimberly</h3>
+    </section>
+</footer>
+
+ <script src="./js/slider.js"></script> 
+</body>
+</html>
